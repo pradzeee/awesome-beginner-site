@@ -1,0 +1,149 @@
+body {
+    font-family: sans-serif;
+    color: #777777;
+    line-height: 26px;
+}
+.purple-color {
+    color: #8845f4;
+}
+
+.half-width{
+    width:50%;
+    float:left;
+}
+.img{
+	width: 300px;
+}
+.side-img{
+    width: 50%;
+    padding-left: 25%;
+}
+.primary-btn {
+    color: white;
+    background-color: #8845f4;
+    padding: 13px 42px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+h1{
+    font-size: 2.5em;
+}
+.container{
+    padding-left:5%;
+    display: inline-block;
+}
+.experiences {
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(238, 251, 255);
+    border-radius: 20px;
+}
+.experience-item {
+    padding: 10px;
+    border-left: 1px solid rgba(137, 130, 247, .2);
+}
+.footer{
+	text-align: center;
+}
+
+.nav{
+	height: 50px;
+	background: blue;	
+}
+.nav div{
+	padding-left:5%;
+	display: inline-black;
+	position: absolute;
+	left: 0;
+	padding: 15px;
+	font-size: 20px;
+	color: white;
+}
+.nav ul{
+	position: absolute;
+	right: 5px;
+	padding-right:5%;
+}
+.nav ul li{
+	display: inline-block;
+}
+.nav ul li a{
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+.about {
+	margin: 150px auto 0 auto;
+	width: 500px;
+}
+.about h1{
+    color: blue;
+	text-align: center;
+}
+.about p{
+    color: green;
+	font-family: helvatica;
+	text-align: justify;
+}
+.serv .servy{
+	margin: 80px auto 0 auto;
+	text-align: center;
+}
+.serv .servy h1{
+	color: blue;
+}
+.servy .card ul{
+	padding: 0;
+}
+.servy .card ul li{
+	list-type: none;
+	display: inline-block;
+	margin: 20px;
+	width: 300px;
+}
+.servy .card ul li p{
+	text-align: justify;
+	font-family: helvatica;
+	color: green;
+}
+.con .contact{
+	margin: 80px auto 0 auto;
+	text-align: center;
+}
+.con .contact h1{
+	color: blue;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+   padding: 20px;
+}
